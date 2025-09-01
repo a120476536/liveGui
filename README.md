@@ -16,66 +16,28 @@
 
 ---
 
-## 📥 安装与使用
+## 🛠️ 安装油猴脚本（Tampermonkey）
 
-### 1️⃣ 克隆项目
-```bash
-git clone https://github.com/yourname/yourproject.git
-cd yourproject
+### 1. 安装油猴扩展
+| 浏览器 | 安装方式 |
+|--------|----------|
+| Chrome | ⚠️ Chrome 商店访问受限，需手动下载 [Tampermonkey 官网](https://www.tampermonkey.net/index.php?browser=chrome) 提供的 `.crx` 文件并拖拽到 `chrome://extensions/` 页面安装 |
+| Edge / Firefox / Safari | 直接访问 [Tampermonkey 官网](https://www.tampermonkey.net/index.php?browser=chrome) 点击对应浏览器图标即可一键安装 |
 
+### 2. 导入脚本
+1. 安装完成后，点击浏览器右上角的 **油猴图标** → **管理面板**  
+2. 在管理面板中点击 **“+” 新建脚本**（或 **“新建脚本”** 按钮）  
+3. 将脚本文件夹中的 **全部内容** 复制到打开的编辑器中  
+4. 按 `Ctrl/Cmd + S` 保存，脚本即可生效  
 
-### win 打包 已测试
-# 进入目录
-cd /d D:\pythonProject\LiveGui
-# 没有build_env的话 创建一个
-python -m venv build_env
-# 激活环境 - 纯净
-build_env\Scripts\activate
+> 脚本激活后，会在匹配的网站自动运行，开始本地数据监听。
 
-# 安装依赖库
-pip install pyinstaller PyQt5 websockets pyserial requests edge_tts playsound==1.2.2 pygame   # playsound 最新版 安装失败 指定 1.2.2 可以安装
-# 需要指定版本 这么指定
-- pip install PyQt5==5.15.9 websockets>=10.4,<11 pyserial==3.5 requests==2.31.0 edge_tts==1.0.7 playsound==1.3.0
+---
 
-# 打包
-pyinstaller -w -i "D:\apk\logo.ico" liveMain.py
-# 可命名方式
-pyinstaller -w -i "D:\apk\logo.ico" --name "MyApp" liveMain.py
+## 📄 许可证
+本项目基于 [LICENSE](./LICENSE) 开源发布，使用即表示您已阅读并同意其全部条款。
 
-# 搭配更新器使用
-pyinstaller -w -i "D:\apk\logo.ico" updater_worker.py -n updater
-更新程序打包后 将 updater.exe  移动到 liveMain.py 打包后的目录下 即 与 liveMain.exe 平级 存放
-
-
-# 用虚拟环境  mac 本机运行前要
-```
-cd /Users/ljj/Documents/gitProject/live-gui
-/opt/homebrew/bin/python3 -m venv venv
-source venv/bin/activate
-pip install pyserial websockets
-python liveMain.py
-```
-以后每次运行都需要先 
-```
-source venv/bin/activate
-python liveMain.py
-```
-退出虚拟环境：
-```
-deactivate
-```
-
-
-### mac打包  - 未测试
-# 进入项目目录
-cd ~/Documents/gitProject/live-gui
-
-# 建立虚拟环境
-python3 -m venv build_env
-source build_env/bin/activate
-
-# 安装依赖
-pip install pyinstaller PyQt5 websockets pyserial requests
-
-# 打包（生成 .app）
-pyinstaller -w -i logo.icns liveMain.py
+## 实例展示
+![主页面](./softImg/main.png)
+![礼物设置](./softImg/setting.png)
+![数据采集](./softImg/shuju.png)
