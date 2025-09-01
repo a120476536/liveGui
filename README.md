@@ -41,3 +41,15 @@
 ![主页面](./softImg/main.png)
 ![礼物设置](./softImg/setting.png)
 ![数据采集](./softImg/shuju.png)
+
+注意 实际 需要搭配 硬件使用 
+
+## 所需硬件 
+1、电源适配器 
+2、usb转串口线
+3、锁控板
+![device](./softImg/lockdevice.png)
+4、电磁铁
+
+## 最终项目效果展示 
+![cando](./softImg/cando.png)
