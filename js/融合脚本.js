@@ -3,10 +3,10 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0.0
 // @description  单脚本抓取快手/抖音直播消息，快手用WS，抖音用HTTP 融合均用HTTP
-// @match        *://live.kuaishou.com/*
-// @match        *://*.kuaishou.com/*
-// @match        *://live.douyin.com/*
-// @match        *://*.douyin.com/*
+// @match        *://asbclive.kuasdfdffishou.com/*
+// @match        *://*.kuaisdsdfdfshou.com/*
+// @match        *://live.dosdfsdfuyin.com/*
+// @match        *://*.dousdfsfdyin.com/*
 // @connect      localhost
 // @connect      127.0.0.1
 // @grant        GM_xmlhttpRequest

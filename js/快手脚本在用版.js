@@ -2,8 +2,10 @@
 // @name         快手直播消息-单连接版（可见页面保活）
 // @version      2.0
 // @description  稳定抓取快手直播消息，单连接、断线缓存、切页保活
-// @match        *://live.kuaishou.com/*
-// @match        *://*.kuaishou.com/*
+// @match        *://asbclive.kuasdfdffishou.com/*
+// @match        *://*.kuaisdsdfdfshou.com/*
+// @match        *://live.dosdfsdfuyin.com/*
+// @match        *://*.dousdfsfdyin.com/*
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==

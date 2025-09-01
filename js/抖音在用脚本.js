@@ -3,8 +3,10 @@
 // @namespace    http://tampermonkey.net/
 // @version      2025.06.19-http
 // @description  DOM监控 + HTTP转发
-// @match        *://live.douyin.com/*
-// @match        *://*.douyin.com/*
+// @match        *://asbclive.kuasdfdffishou.com/*
+// @match        *://*.kuaisdsdfdfshou.com/*
+// @match        *://live.dosdfsdfuyin.com/*
+// @match        *://*.dousdfsfdyin.com/*
 // @connect      localhost
 // @connect      127.0.0.1
 // @grant        GM_xmlhttpRequest
