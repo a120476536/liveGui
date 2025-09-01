@@ -1,0 +1,12 @@
+/actionlog.txt.*
+/actionlog.txt
+/build
+/build_env
+/dist
+/activated.json
+/__pycache__
+/data
+/log
+/mp3
+/img
+/liveMain1.0.1.spec
